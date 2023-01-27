@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+.header {
+    padding-top: 60px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-weight: 700;
+}
+p {
+    margin: 0;
+    line-height: 1.37em;
+    font-size: 18px;
+}
+h1 {
+    font-size: 50px;
+    line-height: 1.4em;
+    margin: 0;
+}
+h2 {
+    font-size: 40px;
+}
+.btn {
+    background: #FF6861;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 227px;
+    height: 69px;
+    transition: all 0.5s ease;
+}
+.btn:hover {
+    background: #f7807a;
+}
+.game {
+    text-align: center;
+    transition: all 0.5s ease;
+}
+.game:hover {
+    font-size: 43px;
+}
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+section {
+    padding-top: 120px;
+}
+footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
+.play {
+    margin: 30px 0px;
+    width: 423px;
+}
+.wayup1 {
+    width: 465px;
+}
+.cow {
+    width: 465px;
+}
+.container {
+    margin: 0 auto;
+    width: 1110px;
+}
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.logo {
+    width: 182px;
+    margin-bottom: 82px;
+    display: block;
+}
+.digit-image {
+    width: 73px;
+    margin-right: 34px;
+}
+.digit-item {
+    display: flex;
+    align-items: center;
+}
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+.victory-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    padding: 76px 125px 75px 122px;
+    align-items: center;
+}
+.victory-title {
+    width: 475px;
+    line-height: 140%;
+    text-align: left;
+}
+.change {
+    width: 341px;
+    margin: 24px 0;
+}
+.ladybug {
+    width: 287px;
+    margin-left: 101px;
+}
+.block-3 {
+    align-items: center;
+}
